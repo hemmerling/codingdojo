@@ -1,0 +1,25 @@
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class GameBoard {
+
+	private HashMap<Integer, HashSet<Integer>> cells = new HashMap<>();
+
+	public GameBoard next() {
+		return new GameBoard();
+	}
+
+	public void setAlive(Integer x, Integer y) {
+		HashSet<Integer> column = cells.get(x);
+		if (column == null) {
+			column = new HashSet<Integer>();
+			cells.put(x, column);
+		}
+		column.add(y);
+	}
+
+	public boolean getAlive(Integer x, Integer y) {
+		return cells.get(x).contains(y);
+	}
+
+}

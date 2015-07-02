@@ -1,0 +1,46 @@
+% info vars
+tcl_rcFileName tcl_version argv0 argv tcl_interactive tk_library tk_version LabelText auto_path errorCode tk_strictMotif errorInfo auto_index env tcl_patchLevel Message argc tk_patchLevel tcl_library tcl_platform% 
+% winfo ch .
+.b
+
+# Replacement of the message of a modal window
+% set Message
+Hallo World!
+% set Message "Hello Tcl User!"
+Hello Tcl User!
+# Now press the Button "Hello" 
+# and see that the new message
+# is displayed on the button of
+# the modal window
+
+# Replacement on the callback function
+# for a buttonclick:
+% proc onButtonClick {} {
+puts "New Start of Reaction to Buttonclick"
+     tk_messageBox -parent . -message $::Message
+puts "New End of Reaction to Buttonclick"
+}
+# Now press the Button "Hello" 
+# and see that by the buttonclick
+# now new messages are displayed 
+# in the console window
+
+% proc e {} {uplevel #0 [clipboard get]}
+# Now mark the Tcl command "winfo ch .", 
+# copy it with CTRL-C to the keyboard
+# and execute the command "e"
+# By this, the contents of the clipboard 
+# is executed as Tcl command
+% e
+.b
+
+% proc i {} {puts $::errorInfo}
+# Now cause an error by an invalid command
+% abc
+invalid command name "abc"
+# So you can replay the last error, 
+# by calling the "i" procedure 
+% i
+invalid command name "abc"
+while executing
+"abc"

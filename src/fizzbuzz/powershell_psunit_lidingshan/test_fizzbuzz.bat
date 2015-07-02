@@ -1,0 +1,1 @@
+powershell .\testrunner.ps1 .\test_FizzBuzz.ps1

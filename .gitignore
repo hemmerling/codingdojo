@@ -1,0 +1,10 @@
+*.bak
+*.class
+*.dll
+bin
+obj
+TestResults
+testRunner.ps1
+
+
+

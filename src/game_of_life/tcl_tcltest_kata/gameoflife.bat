@@ -1,0 +1,3 @@
+tclsh gameoflife.tcl
+
+

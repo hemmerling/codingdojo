@@ -1,0 +1,8 @@
+
+public class GameBoard {
+
+	public GameBoard next() {
+		return new GameBoard();
+	}
+
+}

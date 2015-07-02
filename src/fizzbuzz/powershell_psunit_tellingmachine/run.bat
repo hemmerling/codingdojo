@@ -1,0 +1,1 @@
+powershell PSUnit.Run.ps1 .\FizzBuzz.Test.ps1

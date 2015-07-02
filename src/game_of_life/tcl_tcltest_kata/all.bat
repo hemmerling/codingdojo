@@ -1,0 +1,3 @@
+tclsh all.tcl
+
+
