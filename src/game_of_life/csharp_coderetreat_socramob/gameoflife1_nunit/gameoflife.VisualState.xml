@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Users\Public\gdcr_osnabrueck\csharp_coderetreat_socramob\gameoflife1\gameoflife.nunit</TopNode>
+  <SelectedNode>[0-1000]C:\Users\Public\gdcr_osnabrueck\csharp_coderetreat_socramob\gameoflife1\gameoflife.nunit</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\Public\gdcr_osnabrueck\csharp_coderetreat_socramob\gameoflife1\gameoflife.nunit" Expanded="true" />
+    <Node UniqueName="[0-1004]C:\Users\Public\gdcr_osnabrueck\csharp_coderetreat_socramob\gameoflife1\gameoflife_test\bin\Debug\gameoflife_test.exe" Expanded="true" />
+    <Node UniqueName="[0-1005]GameOfLifeTest" Expanded="true" />
+    <Node UniqueName="[0-1001]GameOfLifeTest.CellTest" Expanded="true" />
+  </Nodes>
+</VisualState>

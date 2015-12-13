@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Public\gdcr_osnabrueck\csharp_coderetreat_socramob\gameoflife1\gameoflife.nunit" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-11-16" time="17:02:11">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.4\bin" machine-name="NODE5" user="Administrator" user-domain="NODE5" />
+  <culture-info current-culture="de-DE" current-uiculture="en-GB" />
+  <test-suite type="Project" name="C:\Users\Public\gdcr_osnabrueck\csharp_coderetreat_socramob\gameoflife1\gameoflife.nunit" executed="True" result="Success" success="True" time="0.205" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\Public\gdcr_osnabrueck\csharp_coderetreat_socramob\gameoflife1\gameoflife_test\bin\Debug\gameoflife_test.exe" executed="True" result="Success" success="True" time="0.187" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="GameOfLifeTest" executed="True" result="Success" success="True" time="0.183" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="CellTest" executed="True" result="Success" success="True" time="0.177" asserts="0">
+                <results>
+                  <test-case name="GameOfLifeTest.CellTest.A_cell_is_dead_after_killing_them" executed="True" result="Success" success="True" time="0.145" asserts="1" />
+                  <test-case name="GameOfLifeTest.CellTest.A_cell_should_be_alive_by_default" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
