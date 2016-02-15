@@ -1,0 +1,5 @@
+Tell don´t ask
+
+We tried to create an event driven approach to solve the principles of clean code,
+
+don´t confuse it with "inversion of control" / "dependancy inversion".
